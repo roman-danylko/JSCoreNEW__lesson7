@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.text {
+  max-width: 800px;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: text;
+  padding: 10px;
+  white-space: pre-wrap;
+}
+
+.keyboard__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  width: 100%;
+  gap: 5px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn14,
+.btn15 {
+  width: 85px;
+}
+
+.btn29,
+.btn41 {
+  width: 95px;
+}
+
+.btn42 {
+  width: 110px;
+}
+
+.btn53 {
+  width: 135px;
+}
+
+.btn54 {
+  width: 100%;
+}
